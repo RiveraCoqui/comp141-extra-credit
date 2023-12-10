@@ -10,7 +10,7 @@ ls > ls.txt
 touch copy.txt
 cp read.txt copy.txt
 touch date.txt
-alias TODAYDATE='date + %d-%m-%y'
+alias TODAYDATE= date "+%D"
 alias TODAYDATE > date.txt
 touch textcount.txt
 wc copy.txt > textcount.txt
@@ -24,5 +24,5 @@ touch permissions.txt
 chmod +rwx permissions.txt
 TESTENV1=test
 touch regex.txt
-grep -w '{1,3}'copy.txt > regex.txt
+grep -E "\w{3}" copy.txt > regex.txt
 cd -

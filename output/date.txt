@@ -1,1 +1,1 @@
-alias TODAYDATE='date + %d-%m-%y'
+alias TODAYDATE=''
