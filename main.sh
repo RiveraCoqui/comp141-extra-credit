@@ -11,7 +11,7 @@ touch copy.txt
 cp read.txt copy.txt
 touch date.txt
 alias TODAYDATE= date "+%D"
-alias TODAYDATE > date.txt
+TODAYDATE > date.txt
 touch textcount.txt
 wc copy.txt > textcount.txt
 touch process.txt
