@@ -24,5 +24,5 @@ touch permissions.txt
 chmod +rwx permissions.txt
 TESTENV1=test
 touch regex.txt
-grep -wE '{1,3}'copy.txt > regex.txt
+grep -w '{1,3}'copy.txt > regex.txt
 cd -
