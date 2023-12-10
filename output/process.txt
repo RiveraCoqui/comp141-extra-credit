@@ -1,5 +1,5 @@
     PID TTY          TIME CMD
   25957 pts/0    00:00:00 bash
-  26436 pts/0    00:00:00 bash
-  26451 pts/0    00:00:00 ps
-  26452 pts/0    00:00:00 head
+  27933 pts/0    00:00:00 bash
+  27947 pts/0    00:00:00 ps
+  27948 pts/0    00:00:00 head

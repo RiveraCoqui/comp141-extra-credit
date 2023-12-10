@@ -2,4 +2,4 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 172.16.0.120  netmask 255.255.0.0  broadcast 172.16.255.255
         inet6 fe80::222:48ff:fe8c:a8b6  prefixlen 64  scopeid 0x20<link>
         ether 00:22:48:8c:a8:b6  txqueuelen 1000  (Ethernet)
-        RX packets 92731  bytes 78795977 (78.7 MB)
+        RX packets 98871  bytes 79808646 (79.8 MB)
