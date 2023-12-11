@@ -10,8 +10,8 @@ ls > ls.txt
 touch copy.txt
 cp read.txt copy.txt
 touch date.txt
-alias TODAYDATE= date "+%D"
-alias TODAYDATE > date.txt
+alias date = date
+date > date.txt
 touch textcount.txt
 wc copy.txt > textcount.txt
 touch process.txt
